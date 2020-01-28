@@ -1,0 +1,24 @@
+<!doctype html>
+<head>
+  <title>Connect 4</title>
+  <link href="connect4.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+
+<form class="form-inline" id="start" action="submit">
+  <div class="form-group ml-md-5 m-sm-2" >
+    <input placeholder="Player 1 Color" id="player1Color" type="text" class="form-control">
+  </div>
+  <div class="form-group m-sm-2">
+    <input placeholder="Player 2 Color"id="player2Color" type="text" class="form-control">
+  </div>
+  <button type="submit" class="btn btn-primary m-sm-2" id="startGameBtn">Start Game</button>
+</form>
+<div id="game">
+  <table class="form-table ml-md-5 mt-sm-4" id="board"></table>
+</div>
+
+<script src="connect4.js"></script>
+</body>
+</html>
